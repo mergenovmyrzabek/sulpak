@@ -1,8 +1,9 @@
 const Router = require('express');
 const router = new Router();
-const brandController = require('../controllers/brandController.js');
+const deviceController = require('../controllers/deviceController.js');
 
-router.post('/', brandController.create);
-router.get('/', brandController.getAll);
+router.post('/', deviceController.create);
+router.get('/', deviceController.getAll);
+router.get('/:id', deviceController.getOne);
 
 module.exports = router;
