@@ -10,4 +10,4 @@ router.use('/brand', brandRouter);
 router.use('/type', typeRouter);
 router.use('/device', deviceRouter);
 
-module.export = router;
+module.exports = router;

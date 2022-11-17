@@ -5,4 +5,4 @@ const brandController = require('../controllers/brandController.js');
 router.post('/', brandController.create);
 router.get('/', brandController.getAll);
 
-module.export = router;
+module.exports = router;
